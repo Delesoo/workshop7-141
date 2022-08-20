@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.navigation{
+    width: 594px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 638px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .nav{
+    width: 228px;
+    height: 70px;
+    background-color: #C4C4C4;
+    text-align: center;
+    border-radius: 0 35px 0 35px;
+    margin-left: 84px;
+}
+.navigation p{
+    color: #000000;
+    font-size: 18px;
+    padding-top: 22px;
+}
+.navigation .nav2{
+    width: 126px;
+}
+.navigation .nav3{
+    width: 70px;
+}
+.navigation .nav:hover{
+    background-color: #79B331; 
+}
+.active .nav{
+    background-color: #79B331;
+}
+.active .nav p{
+    color: #ffffff;
+}
+.animationtime{
+    width: 422px;
+    height: 188px;
+    margin-top: 94px;
+    margin-left: 858px;
+    text-align: center;
+}
+.rgoli{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: rgolianimation 4s infinite;
+}
+@keyframes rgolianimation{
+    0%{top:0;left: 0;}
+    25%{top:0;left: 390px;}
+    50%{top:156px;left: 390px;}
+    75%{top:156px;left: 0;}
+    100%{top:0;left: 0;}
+}
+.animationtime p{
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+}
+.timer{
+    font-size: 36px;
+    color: #000000;
+    margin-top: 22px;
+}
+.tree{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    width: 1150px;
+    height: 500px;
+    margin-left: auto;
+    position: relative;
+}
+.stick{
+    width: 2px;
+    height: 428px;
+    background-color: #C4C4C4;
+    margin-top: 70px;
+}
+.tree .text{
+    width: 420px;
+    height: 58px;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    font-size: 18px;
+}
+.kubi1{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #79B331;
+    top: 0;
+    left: 434px;
+    border-radius: 0 35px 0 35px;
+}
+.tree .text2{
+    top: 250px;
+    left: 0px;
+    font-size: 18px;
+    position: absolute;
+    width: 488px;
+    height: 58px;
+}
+.kubi2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #C4C4C4;
+    top: 250px;
+    left: 506px;
+    border-radius: 0 35px 0 35px;
+}
+.tree .text3{
+    width: 406px;
+    height: 48px;
+    position: absolute;
+    font-size: 18px;
+    top: 130px;
+    left: 680px;
+}
+.kubi3{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #C4C4C4;
+    top: 130px;
+    left: 576px;
+    border-radius: 0 35px 0 35px;
+    transform: rotate(90deg); 
+}
+.tree .text4{
+    width: 414px;
+    height: 24px;
+    position: absolute;
+    font-size: 18px;
+    top: 380px;
+    left: 680px;
+}
+.kubi4{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: #C4C4C4;
+    top: 380px;
+    left: 576px;
+    border-radius: 0 35px 0 35px;
+    transform: rotate(90deg);
+}
+.text:hover{
+    color: #79B331;
+    cursor: pointer;
+}
